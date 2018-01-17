@@ -1,0 +1,75 @@
+body {
+    width: 100%;
+    background-image: url(weather-1375260252-article-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+header {
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 36px;
+}
+.content {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 70px ;
+}
+.input,
+#date {
+    text-align: right;
+}
+.input span {
+    font-size: 24px;
+    vertical-align: bottom;
+}
+
+.input input {
+    border-radius: 16px;
+    background-color: transparent;
+    padding-left: 6px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.input button {
+    border-radius: 10px;
+    background-color: white;
+    font-family: sans-serif;
+    color: black;
+}
+
+.city {
+    font-size: 40px;
+}
+
+.temperature {
+    font-size: 80px;
+}
+.weather {
+    font-size: 30px;
+}
+.humidity,
+.windspeed,
+.description {
+    font-size:  20px;
+}
+
+.weatherDiv {
+    display: inline-flex;
+}
+.weatherDiv p,
+.weatherDiv img {
+    display: inline-block;
+}
